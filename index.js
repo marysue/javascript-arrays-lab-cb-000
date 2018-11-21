@@ -82,4 +82,6 @@ function removeFirstKitten() {
   //    expect(removeFirstKitten()).toEqual(["Otis", "Garfield"])
 
   //    expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
+  var newKittens = kittens.slice(1);
+  return newKittens;
 }
