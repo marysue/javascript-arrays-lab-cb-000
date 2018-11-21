@@ -7,8 +7,8 @@ var kittens = ["Milo", "Otis", "Garfield"];
   //  window.kittens = ['Milo', 'Otis', 'Garfield'];
   //  destructivelyAppendKitten('Ralph')
   // expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
-   newKittens = [...kittens, name];
-  return newKittens;
+   kittens.push(name)
+  return kittens;
 }
 
 function  destructivelyPrependKitten(name) {
