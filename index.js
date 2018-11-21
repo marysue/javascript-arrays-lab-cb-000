@@ -43,7 +43,7 @@ function appendKitten(name) {
   //    window.kittens = ['Milo', 'Otis', 'Garfield'];
   //    expect(appendKitten("Broom")).toEqual(["Milo", "Otis", "Garfield", "Broom"])
 
-  //    expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])  
+  //    expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
 }
 
 function prependKitten(name) {
@@ -53,9 +53,9 @@ function prependKitten(name) {
     //  expect(appendKitten("Broom")).toEqual(["Milo", "Otis", "Garfield", "Broom"])
 
     //  expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-} 
+}
 
-function removeLastKitten(){ 
+function removeLastKitten(){
   //describe('removeLastKitten()', function() {
   //  it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
   //    window.kittens = ['Milo', 'Otis', 'Garfield'];
