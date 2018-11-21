@@ -45,8 +45,9 @@ function appendKitten(name) {
   //    expect(appendKitten("Broom")).toEqual(["Milo", "Otis", "Garfield", "Broom"])
 
   //    expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-  
-  return newKittens[...kittens, name];
+
+  var newKittens = [...kittens, name];
+  return newKittens;
 }
 
 function prependKitten(name) {
